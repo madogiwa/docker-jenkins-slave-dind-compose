@@ -4,6 +4,6 @@ LABEL maintainer="Hidenori Sugiyama <madogiwa@gmail.com>"
 
 ## install docker-compose
 RUN \
-  apk add --update --no-cache py-pip && \
-  pip install docker-compose
+  apk add --update --no-cache python3 && \
+  pip3 install docker-compose
 
